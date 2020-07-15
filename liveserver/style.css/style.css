@@ -1,0 +1,36 @@
+syntaxis
+
+<p></p>
+
+{
+    caracteristicas / propiedades
+    valores
+    /*selector por nombre*/
+}
+p{
+    color: red;
+    font-family:'time new roman', times, serif;
+    text-align: center ;
+} 
+li{
+    font-size: 30px ;
+    front-family ; verdane , geneva, tahoma, samas-serif;
+    color: aqua;
+}
+/*selector por id*/
+
+#titulotabla{
+    color: lawngreen;
+    front-size: 45px;
+    text-align: center ;
+    border-radius: 5px solid;
+
+
+}
+.jose{
+width: 50%;
+height: 50%;
+border-radius: 40px;
+opacity: 40%;
+
+}

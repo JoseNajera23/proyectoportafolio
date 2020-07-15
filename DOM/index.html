@@ -1,0 +1,61 @@
+<html>lang="en"</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-widh, initial-scale=1.0">
+    <title>accediendo  al DOM(document object model) </title>
+
+    <head>
+        <body>
+    </p id="intro"> introduccion al DOM (document object model)</p>
+</p id="change">este dato se modifca con una funcion de java script</p>
+<button onclick="cambiar()">cambiar el contenido </button>
+<button id="evn">even handlers</button>
+</br>
+<div class="jumbotron"></div>
+</h1></div>calculadora</h1>
+</br>
+
+<input type="text">
+<input type="number"placeholder="ingresa numero 1 "id="num1">
+<input type="number"placeholder="ingresa numero 2 "id="num2">
+
+<br />
+
+<button>realizar operacion </button>
+<hr>
+
+<h1>seleccinar elementos por lag name</h1>
+<p>contenido del primer parrafo</p>
+<p>usando el metodo <i>getElementById</i></p>
+
+<p id="tagmethod"></p>
+<br>
+<p id="classname"></p>
+
+        </body>
+        <script>
+            document.getElementById("intro").innerHTML="aqui estoy cambiando el contenido parrafo";
+            function cambiar{
+                document.getElementById("cange").innerHTML="ya cambie gracias a esta funcion llamada change";
+            }
+            //even handlers 
+            document.getElementById("evn").click=function(){
+                document.write("el usuario utilizo el boton event");
+                alert('bienvenidos a mi sitio web');
+
+            }
+            let n1= document.getElementById("num1").value;
+            let n2= document.getElementById("num1").value;
+            let resultado= n1+n2;
+            console.log(resultado);
+            document.getElementById("resultado").innerHTML= resultado;
+            //manejando elementos con tags
+            let data = document.getElementsByTagName ("p");
+            document.getElementById("tagmethod").innerHTML="el texto encontado es el parrafo es " +  data[0].innerHTML;
+            //manejando elementos con classnama
+            let dataclase= document.getElementsByClassName("parrafo")
+            document.getElementById
+    
+    </script>
+    
+</html>
